@@ -1,0 +1,1339 @@
+E:\Anaconda3\python.exe D:/Billccx/大三下学期/计算机网络/GBN/GBN_Pro/ProHost2.py
+0, send: pdu_to_send=0, status=New, ackedNo=7
+1, send: pdu_to_send=1, status=New, ackedNo=7
+send CRC error
+2, send: pdu_to_send=2, status=New, ackedNo=7
+send CRC error
+3, send: pdu_to_send=3, status=New, ackedNo=7
+send CRC error
+4, send: pdu_to_send=4, status=New, ackedNo=7
+send CRC error
+5, send: pdu_to_send=5, status=New, ackedNo=7
+lost
+1, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=0,now.ack=1,next_frame_to_send=6
+6, send: pdu_to_send=6, status=New, ackedNo=0
+7, send: pdu_to_send=0, status=New, ackedNo=0
+3, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+5, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+7, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+8, send: pdu_to_send=2, status=TO, ackedNo=3
+send CRC error
+9, send: pdu_to_send=3, status=TO, ackedNo=3
+10, send: pdu_to_send=4, status=TO, ackedNo=3
+11, send: pdu_to_send=5, status=TO, ackedNo=3
+12, send: pdu_to_send=6, status=TO, ackedNo=3
+13, send: pdu_to_send=0, status=TO, ackedNo=3
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+9, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+11, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+13, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=2,next_frame_to_send=1
+14, send: pdu_to_send=1, status=New, ackedNo=5
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+send CRC error
+15, send: pdu_to_send=3, status=TO, ackedNo=5
+16, send: pdu_to_send=4, status=TO, ackedNo=5
+send CRC error
+17, send: pdu_to_send=5, status=TO, ackedNo=5
+18, send: pdu_to_send=6, status=TO, ackedNo=5
+19, send: pdu_to_send=0, status=TO, ackedNo=5
+send CRC error
+20, send: pdu_to_send=1, status=TO, ackedNo=5
+14, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+21, send: pdu_to_send=3, status=TO, ackedNo=5
+22, send: pdu_to_send=4, status=TO, ackedNo=5
+23, send: pdu_to_send=5, status=TO, ackedNo=5
+24, send: pdu_to_send=6, status=TO, ackedNo=5
+send CRC error
+25, send: pdu_to_send=0, status=TO, ackedNo=5
+26, send: pdu_to_send=1, status=TO, ackedNo=5
+lost
+15, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+27, send: pdu_to_send=3, status=TO, ackedNo=7
+send CRC error
+28, send: pdu_to_send=4, status=TO, ackedNo=7
+29, send: pdu_to_send=5, status=TO, ackedNo=7
+30, send: pdu_to_send=6, status=TO, ackedNo=7
+31, send: pdu_to_send=0, status=TO, ackedNo=7
+send CRC error
+32, send: pdu_to_send=1, status=TO, ackedNo=7
+before between : ack_expected=3,now.ack=3,next_frame_to_send=2
+33, send: pdu_to_send=2, status=New, ackedNo=7
+17, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+send CRC error
+34, send: pdu_to_send=4, status=TO, ackedNo=7
+send CRC error
+35, send: pdu_to_send=5, status=TO, ackedNo=7
+send CRC error
+36, send: pdu_to_send=6, status=TO, ackedNo=7
+send CRC error
+37, send: pdu_to_send=0, status=TO, ackedNo=7
+38, send: pdu_to_send=1, status=TO, ackedNo=7
+39, send: pdu_to_send=2, status=TO, ackedNo=7
+40, send: pdu_to_send=4, status=TO, ackedNo=7
+41, send: pdu_to_send=5, status=TO, ackedNo=7
+send CRC error
+42, send: pdu_to_send=6, status=TO, ackedNo=7
+43, send: pdu_to_send=0, status=TO, ackedNo=7
+send CRC error
+44, send: pdu_to_send=1, status=TO, ackedNo=7
+45, send: pdu_to_send=2, status=TO, ackedNo=7
+18, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+lost
+lost
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+19, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=4,now.ack=5,next_frame_to_send=3
+46, send: pdu_to_send=3, status=New, ackedNo=0
+47, send: pdu_to_send=4, status=New, ackedNo=0
+21, receive: pdu_exp=1, pdu_recv=1, status=DataErr
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+48, send: pdu_to_send=6, status=TO, ackedNo=0
+49, send: pdu_to_send=0, status=TO, ackedNo=0
+send CRC error
+50, send: pdu_to_send=1, status=TO, ackedNo=0
+51, send: pdu_to_send=2, status=TO, ackedNo=0
+52, send: pdu_to_send=3, status=TO, ackedNo=0
+send CRC error
+53, send: pdu_to_send=4, status=TO, ackedNo=0
+lost
+lost
+before between : ack_expected=6,now.ack=7,next_frame_to_send=5
+send CRC error
+54, send: pdu_to_send=5, status=New, ackedNo=0
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+send CRC error
+55, send: pdu_to_send=0, status=TO, ackedNo=0
+56, send: pdu_to_send=1, status=TO, ackedNo=0
+57, send: pdu_to_send=2, status=TO, ackedNo=0
+58, send: pdu_to_send=3, status=TO, ackedNo=0
+59, send: pdu_to_send=4, status=TO, ackedNo=0
+60, send: pdu_to_send=5, status=TO, ackedNo=0
+22, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+24, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+26, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+28, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+30, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+61, send: pdu_to_send=0, status=TO, ackedNo=4
+62, send: pdu_to_send=1, status=TO, ackedNo=4
+63, send: pdu_to_send=2, status=TO, ackedNo=4
+64, send: pdu_to_send=3, status=TO, ackedNo=4
+65, send: pdu_to_send=4, status=TO, ackedNo=4
+66, send: pdu_to_send=5, status=TO, ackedNo=4
+lost
+before between : ack_expected=0,now.ack=0,next_frame_to_send=6
+67, send: pdu_to_send=6, status=New, ackedNo=4
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+send CRC error
+68, send: pdu_to_send=1, status=TO, ackedNo=4
+69, send: pdu_to_send=2, status=TO, ackedNo=4
+70, send: pdu_to_send=3, status=TO, ackedNo=4
+71, send: pdu_to_send=4, status=TO, ackedNo=4
+72, send: pdu_to_send=5, status=TO, ackedNo=4
+send CRC error
+73, send: pdu_to_send=6, status=TO, ackedNo=4
+31, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+33, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+lost
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+34, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+36, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+send CRC error
+74, send: pdu_to_send=1, status=TO, ackedNo=7
+75, send: pdu_to_send=2, status=TO, ackedNo=7
+76, send: pdu_to_send=3, status=TO, ackedNo=7
+77, send: pdu_to_send=4, status=TO, ackedNo=7
+send CRC error
+78, send: pdu_to_send=5, status=TO, ackedNo=7
+79, send: pdu_to_send=6, status=TO, ackedNo=7
+lost
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+send CRC error
+80, send: pdu_to_send=1, status=TO, ackedNo=7
+send CRC error
+81, send: pdu_to_send=2, status=TO, ackedNo=7
+send CRC error
+82, send: pdu_to_send=3, status=TO, ackedNo=7
+83, send: pdu_to_send=4, status=TO, ackedNo=7
+84, send: pdu_to_send=5, status=TO, ackedNo=7
+85, send: pdu_to_send=6, status=TO, ackedNo=7
+37, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+39, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+41, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+43, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+45, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+47, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+86, send: pdu_to_send=1, status=TO, ackedNo=5
+87, send: pdu_to_send=2, status=TO, ackedNo=5
+send CRC error
+88, send: pdu_to_send=3, status=TO, ackedNo=5
+send CRC error
+89, send: pdu_to_send=4, status=TO, ackedNo=5
+90, send: pdu_to_send=5, status=TO, ackedNo=5
+91, send: pdu_to_send=6, status=TO, ackedNo=5
+lost
+lost
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+send CRC error
+92, send: pdu_to_send=1, status=TO, ackedNo=5
+93, send: pdu_to_send=2, status=TO, ackedNo=5
+94, send: pdu_to_send=3, status=TO, ackedNo=5
+95, send: pdu_to_send=4, status=TO, ackedNo=5
+send CRC error
+96, send: pdu_to_send=5, status=TO, ackedNo=5
+send CRC error
+97, send: pdu_to_send=6, status=TO, ackedNo=5
+lost
+lost
+49, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+send CRC error
+98, send: pdu_to_send=1, status=TO, ackedNo=5
+99, send: pdu_to_send=2, status=TO, ackedNo=5
+100, send: pdu_to_send=3, status=TO, ackedNo=5
+101, send: pdu_to_send=4, status=TO, ackedNo=5
+102, send: pdu_to_send=5, status=TO, ackedNo=5
+103, send: pdu_to_send=6, status=TO, ackedNo=5
+50, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+104, send: pdu_to_send=1, status=TO, ackedNo=5
+105, send: pdu_to_send=2, status=TO, ackedNo=5
+send CRC error
+106, send: pdu_to_send=3, status=TO, ackedNo=5
+107, send: pdu_to_send=4, status=TO, ackedNo=5
+108, send: pdu_to_send=5, status=TO, ackedNo=5
+109, send: pdu_to_send=6, status=TO, ackedNo=5
+51, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=1,now.ack=2,next_frame_to_send=0
+110, send: pdu_to_send=0, status=New, ackedNo=7
+111, send: pdu_to_send=1, status=New, ackedNo=7
+53, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+send CRC error
+112, send: pdu_to_send=3, status=TO, ackedNo=7
+113, send: pdu_to_send=4, status=TO, ackedNo=7
+114, send: pdu_to_send=5, status=TO, ackedNo=7
+115, send: pdu_to_send=6, status=TO, ackedNo=7
+116, send: pdu_to_send=0, status=TO, ackedNo=7
+117, send: pdu_to_send=1, status=TO, ackedNo=7
+54, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+56, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+58, receive: pdu_exp=2, pdu_recv=2, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+118, send: pdu_to_send=3, status=TO, ackedNo=1
+119, send: pdu_to_send=4, status=TO, ackedNo=1
+120, send: pdu_to_send=5, status=TO, ackedNo=1
+121, send: pdu_to_send=6, status=TO, ackedNo=1
+122, send: pdu_to_send=0, status=TO, ackedNo=1
+123, send: pdu_to_send=1, status=TO, ackedNo=1
+before between : ack_expected=3,now.ack=3,next_frame_to_send=2
+send CRC error
+124, send: pdu_to_send=2, status=New, ackedNo=1
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+send CRC error
+125, send: pdu_to_send=4, status=TO, ackedNo=1
+126, send: pdu_to_send=5, status=TO, ackedNo=1
+127, send: pdu_to_send=6, status=TO, ackedNo=1
+128, send: pdu_to_send=0, status=TO, ackedNo=1
+129, send: pdu_to_send=1, status=TO, ackedNo=1
+130, send: pdu_to_send=2, status=TO, ackedNo=1
+59, receive: pdu_exp=2, pdu_recv=2, status=DataErr
+before between : ack_expected=4,now.ack=1,next_frame_to_send=3
+send CRC error
+131, send: pdu_to_send=3, status=New, ackedNo=1
+132, send: pdu_to_send=4, status=New, ackedNo=1
+133, send: pdu_to_send=5, status=New, ackedNo=1
+134, send: pdu_to_send=6, status=New, ackedNo=1
+135, send: pdu_to_send=0, status=New, ackedNo=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+136, send: pdu_to_send=2, status=TO, ackedNo=1
+send CRC error
+137, send: pdu_to_send=3, status=TO, ackedNo=1
+138, send: pdu_to_send=4, status=TO, ackedNo=1
+139, send: pdu_to_send=5, status=TO, ackedNo=1
+140, send: pdu_to_send=6, status=TO, ackedNo=1
+141, send: pdu_to_send=0, status=TO, ackedNo=1
+60, receive: pdu_exp=2, pdu_recv=2, status=DataErr
+before between : ack_expected=2,now.ack=2,next_frame_to_send=1
+142, send: pdu_to_send=1, status=New, ackedNo=1
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+lost
+61, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+63, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+65, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+67, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+send CRC error
+143, send: pdu_to_send=3, status=TO, ackedNo=4
+144, send: pdu_to_send=4, status=TO, ackedNo=4
+145, send: pdu_to_send=5, status=TO, ackedNo=4
+146, send: pdu_to_send=6, status=TO, ackedNo=4
+147, send: pdu_to_send=0, status=TO, ackedNo=4
+148, send: pdu_to_send=1, status=TO, ackedNo=4
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+send CRC error
+149, send: pdu_to_send=3, status=TO, ackedNo=4
+150, send: pdu_to_send=4, status=TO, ackedNo=4
+151, send: pdu_to_send=5, status=TO, ackedNo=4
+152, send: pdu_to_send=6, status=TO, ackedNo=4
+153, send: pdu_to_send=0, status=TO, ackedNo=4
+154, send: pdu_to_send=1, status=TO, ackedNo=4
+68, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+155, send: pdu_to_send=3, status=TO, ackedNo=4
+156, send: pdu_to_send=4, status=TO, ackedNo=4
+send CRC error
+157, send: pdu_to_send=5, status=TO, ackedNo=4
+158, send: pdu_to_send=6, status=TO, ackedNo=4
+send CRC error
+159, send: pdu_to_send=0, status=TO, ackedNo=4
+160, send: pdu_to_send=1, status=TO, ackedNo=4
+lost
+69, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=3,now.ack=4,next_frame_to_send=2
+161, send: pdu_to_send=2, status=New, ackedNo=4
+send CRC error
+162, send: pdu_to_send=3, status=New, ackedNo=4
+lost
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+send CRC error
+163, send: pdu_to_send=5, status=TO, ackedNo=4
+164, send: pdu_to_send=6, status=TO, ackedNo=4
+165, send: pdu_to_send=0, status=TO, ackedNo=4
+send CRC error
+166, send: pdu_to_send=1, status=TO, ackedNo=4
+167, send: pdu_to_send=2, status=TO, ackedNo=4
+168, send: pdu_to_send=3, status=TO, ackedNo=4
+lost
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+send CRC error
+169, send: pdu_to_send=5, status=TO, ackedNo=4
+send CRC error
+170, send: pdu_to_send=6, status=TO, ackedNo=4
+send CRC error
+171, send: pdu_to_send=0, status=TO, ackedNo=4
+172, send: pdu_to_send=1, status=TO, ackedNo=4
+173, send: pdu_to_send=2, status=TO, ackedNo=4
+send CRC error
+174, send: pdu_to_send=3, status=TO, ackedNo=4
+lost
+70, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+72, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+send CRC error
+175, send: pdu_to_send=5, status=TO, ackedNo=5
+176, send: pdu_to_send=6, status=TO, ackedNo=5
+send CRC error
+177, send: pdu_to_send=0, status=TO, ackedNo=5
+178, send: pdu_to_send=1, status=TO, ackedNo=5
+179, send: pdu_to_send=2, status=TO, ackedNo=5
+180, send: pdu_to_send=3, status=TO, ackedNo=5
+lost
+lost
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+181, send: pdu_to_send=5, status=TO, ackedNo=5
+182, send: pdu_to_send=6, status=TO, ackedNo=5
+send CRC error
+183, send: pdu_to_send=0, status=TO, ackedNo=5
+send CRC error
+184, send: pdu_to_send=1, status=TO, ackedNo=5
+185, send: pdu_to_send=2, status=TO, ackedNo=5
+186, send: pdu_to_send=3, status=TO, ackedNo=5
+lost
+73, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+75, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+187, send: pdu_to_send=5, status=TO, ackedNo=7
+send CRC error
+188, send: pdu_to_send=6, status=TO, ackedNo=7
+189, send: pdu_to_send=0, status=TO, ackedNo=7
+190, send: pdu_to_send=1, status=TO, ackedNo=7
+191, send: pdu_to_send=2, status=TO, ackedNo=7
+192, send: pdu_to_send=3, status=TO, ackedNo=7
+lost
+before between : ack_expected=5,now.ack=7,next_frame_to_send=4
+193, send: pdu_to_send=4, status=New, ackedNo=7
+194, send: pdu_to_send=5, status=New, ackedNo=7
+76, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+78, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+80, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+82, receive: pdu_exp=3, pdu_recv=3, status=DataErr
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+195, send: pdu_to_send=0, status=TO, ackedNo=2
+196, send: pdu_to_send=1, status=TO, ackedNo=2
+197, send: pdu_to_send=2, status=TO, ackedNo=2
+198, send: pdu_to_send=3, status=TO, ackedNo=2
+send CRC error
+199, send: pdu_to_send=4, status=TO, ackedNo=2
+200, send: pdu_to_send=5, status=TO, ackedNo=2
+before between : ack_expected=0,now.ack=1,next_frame_to_send=6
+201, send: pdu_to_send=6, status=New, ackedNo=2
+202, send: pdu_to_send=0, status=New, ackedNo=2
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+83, receive: pdu_exp=3, pdu_recv=3, status=DataErr
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+lost
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+203, send: pdu_to_send=2, status=TO, ackedNo=2
+send CRC error
+204, send: pdu_to_send=3, status=TO, ackedNo=2
+send CRC error
+205, send: pdu_to_send=4, status=TO, ackedNo=2
+206, send: pdu_to_send=5, status=TO, ackedNo=2
+207, send: pdu_to_send=6, status=TO, ackedNo=2
+208, send: pdu_to_send=0, status=TO, ackedNo=2
+lost
+84, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=2,now.ack=3,next_frame_to_send=1
+209, send: pdu_to_send=1, status=New, ackedNo=3
+send CRC error
+210, send: pdu_to_send=2, status=New, ackedNo=3
+lost
+86, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+88, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+90, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+send CRC error
+211, send: pdu_to_send=4, status=TO, ackedNo=5
+212, send: pdu_to_send=5, status=TO, ackedNo=5
+213, send: pdu_to_send=6, status=TO, ackedNo=5
+send CRC error
+214, send: pdu_to_send=0, status=TO, ackedNo=5
+215, send: pdu_to_send=1, status=TO, ackedNo=5
+send CRC error
+216, send: pdu_to_send=2, status=TO, ackedNo=5
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+91, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+93, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+217, send: pdu_to_send=4, status=TO, ackedNo=7
+218, send: pdu_to_send=5, status=TO, ackedNo=7
+send CRC error
+219, send: pdu_to_send=6, status=TO, ackedNo=7
+220, send: pdu_to_send=0, status=TO, ackedNo=7
+send CRC error
+221, send: pdu_to_send=1, status=TO, ackedNo=7
+222, send: pdu_to_send=2, status=TO, ackedNo=7
+lost
+before between : ack_expected=4,now.ack=4,next_frame_to_send=3
+223, send: pdu_to_send=3, status=New, ackedNo=7
+224, send: pdu_to_send=5, status=TO, ackedNo=7
+send CRC error
+225, send: pdu_to_send=6, status=TO, ackedNo=7
+226, send: pdu_to_send=0, status=TO, ackedNo=7
+227, send: pdu_to_send=1, status=TO, ackedNo=7
+228, send: pdu_to_send=2, status=TO, ackedNo=7
+229, send: pdu_to_send=3, status=TO, ackedNo=7
+94, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=5,now.ack=5,next_frame_to_send=4
+230, send: pdu_to_send=4, status=New, ackedNo=7
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+95, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+send CRC error
+231, send: pdu_to_send=6, status=TO, ackedNo=7
+232, send: pdu_to_send=0, status=TO, ackedNo=7
+233, send: pdu_to_send=1, status=TO, ackedNo=7
+234, send: pdu_to_send=2, status=TO, ackedNo=7
+235, send: pdu_to_send=3, status=TO, ackedNo=7
+send CRC error
+236, send: pdu_to_send=4, status=TO, ackedNo=7
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+96, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+98, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+100, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+237, send: pdu_to_send=6, status=TO, ackedNo=2
+238, send: pdu_to_send=0, status=TO, ackedNo=2
+239, send: pdu_to_send=1, status=TO, ackedNo=2
+240, send: pdu_to_send=2, status=TO, ackedNo=2
+send CRC error
+241, send: pdu_to_send=3, status=TO, ackedNo=2
+send CRC error
+242, send: pdu_to_send=4, status=TO, ackedNo=2
+lost
+lost
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+243, send: pdu_to_send=6, status=TO, ackedNo=2
+244, send: pdu_to_send=0, status=TO, ackedNo=2
+send CRC error
+245, send: pdu_to_send=1, status=TO, ackedNo=2
+246, send: pdu_to_send=2, status=TO, ackedNo=2
+247, send: pdu_to_send=3, status=TO, ackedNo=2
+248, send: pdu_to_send=4, status=TO, ackedNo=2
+102, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+104, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+106, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+249, send: pdu_to_send=6, status=TO, ackedNo=4
+250, send: pdu_to_send=0, status=TO, ackedNo=4
+send CRC error
+251, send: pdu_to_send=1, status=TO, ackedNo=4
+252, send: pdu_to_send=2, status=TO, ackedNo=4
+253, send: pdu_to_send=3, status=TO, ackedNo=4
+send CRC error
+254, send: pdu_to_send=4, status=TO, ackedNo=4
+lost
+before between : ack_expected=6,now.ack=0,next_frame_to_send=5
+255, send: pdu_to_send=5, status=New, ackedNo=4
+256, send: pdu_to_send=6, status=New, ackedNo=4
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+send CRC error
+257, send: pdu_to_send=1, status=TO, ackedNo=4
+258, send: pdu_to_send=2, status=TO, ackedNo=4
+send CRC error
+259, send: pdu_to_send=3, status=TO, ackedNo=4
+260, send: pdu_to_send=4, status=TO, ackedNo=4
+261, send: pdu_to_send=5, status=TO, ackedNo=4
+262, send: pdu_to_send=6, status=TO, ackedNo=4
+107, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+109, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+111, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+lost
+lost
+send CRC error
+263, send: pdu_to_send=1, status=TO, ackedNo=7
+send CRC error
+264, send: pdu_to_send=2, status=TO, ackedNo=7
+265, send: pdu_to_send=3, status=TO, ackedNo=7
+266, send: pdu_to_send=4, status=TO, ackedNo=7
+267, send: pdu_to_send=5, status=TO, ackedNo=7
+268, send: pdu_to_send=6, status=TO, ackedNo=7
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+112, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+114, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+116, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+118, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+120, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+122, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+269, send: pdu_to_send=1, status=TO, ackedNo=4
+270, send: pdu_to_send=2, status=TO, ackedNo=4
+send CRC error
+271, send: pdu_to_send=3, status=TO, ackedNo=4
+272, send: pdu_to_send=4, status=TO, ackedNo=4
+273, send: pdu_to_send=5, status=TO, ackedNo=4
+274, send: pdu_to_send=6, status=TO, ackedNo=4
+lost
+lost
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+275, send: pdu_to_send=1, status=TO, ackedNo=4
+276, send: pdu_to_send=2, status=TO, ackedNo=4
+277, send: pdu_to_send=3, status=TO, ackedNo=4
+278, send: pdu_to_send=4, status=TO, ackedNo=4
+send CRC error
+279, send: pdu_to_send=5, status=TO, ackedNo=4
+280, send: pdu_to_send=6, status=TO, ackedNo=4
+123, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+281, send: pdu_to_send=1, status=TO, ackedNo=4
+282, send: pdu_to_send=2, status=TO, ackedNo=4
+send CRC error
+283, send: pdu_to_send=3, status=TO, ackedNo=4
+284, send: pdu_to_send=4, status=TO, ackedNo=4
+285, send: pdu_to_send=5, status=TO, ackedNo=4
+send CRC error
+286, send: pdu_to_send=6, status=TO, ackedNo=4
+lost
+lost
+124, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=1,now.ack=4,next_frame_to_send=0
+287, send: pdu_to_send=0, status=New, ackedNo=5
+288, send: pdu_to_send=1, status=New, ackedNo=5
+send CRC error
+289, send: pdu_to_send=2, status=New, ackedNo=5
+290, send: pdu_to_send=3, status=New, ackedNo=5
+126, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+128, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=5,next_frame_to_send=4
+send CRC error
+291, send: pdu_to_send=4, status=New, ackedNo=7
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+292, send: pdu_to_send=6, status=TO, ackedNo=7
+293, send: pdu_to_send=0, status=TO, ackedNo=7
+294, send: pdu_to_send=1, status=TO, ackedNo=7
+295, send: pdu_to_send=2, status=TO, ackedNo=7
+send CRC error
+296, send: pdu_to_send=3, status=TO, ackedNo=7
+297, send: pdu_to_send=4, status=TO, ackedNo=7
+129, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+131, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+133, receive: pdu_exp=2, pdu_recv=2, status=DataErr
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+send CRC error
+298, send: pdu_to_send=6, status=TO, ackedNo=1
+299, send: pdu_to_send=0, status=TO, ackedNo=1
+300, send: pdu_to_send=1, status=TO, ackedNo=1
+301, send: pdu_to_send=2, status=TO, ackedNo=1
+302, send: pdu_to_send=3, status=TO, ackedNo=1
+send CRC error
+303, send: pdu_to_send=4, status=TO, ackedNo=1
+before between : ack_expected=6,now.ack=2,next_frame_to_send=5
+304, send: pdu_to_send=5, status=New, ackedNo=1
+305, send: pdu_to_send=6, status=New, ackedNo=1
+306, send: pdu_to_send=0, status=New, ackedNo=1
+307, send: pdu_to_send=1, status=New, ackedNo=1
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+308, send: pdu_to_send=3, status=TO, ackedNo=1
+send CRC error
+309, send: pdu_to_send=4, status=TO, ackedNo=1
+310, send: pdu_to_send=5, status=TO, ackedNo=1
+311, send: pdu_to_send=6, status=TO, ackedNo=1
+312, send: pdu_to_send=0, status=TO, ackedNo=1
+313, send: pdu_to_send=1, status=TO, ackedNo=1
+134, receive: pdu_exp=2, pdu_recv=2, status=DataErr
+before between : ack_expected=3,now.ack=3,next_frame_to_send=2
+send CRC error
+314, send: pdu_to_send=2, status=New, ackedNo=1
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+315, send: pdu_to_send=4, status=TO, ackedNo=1
+316, send: pdu_to_send=5, status=TO, ackedNo=1
+317, send: pdu_to_send=6, status=TO, ackedNo=1
+318, send: pdu_to_send=0, status=TO, ackedNo=1
+send CRC error
+319, send: pdu_to_send=1, status=TO, ackedNo=1
+320, send: pdu_to_send=2, status=TO, ackedNo=1
+135, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+137, receive: pdu_exp=3, pdu_recv=3, status=DataErr
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+lost
+lost
+lost
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=4,next_frame_to_send=3
+send CRC error
+321, send: pdu_to_send=3, status=New, ackedNo=2
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+322, send: pdu_to_send=5, status=TO, ackedNo=2
+323, send: pdu_to_send=6, status=TO, ackedNo=2
+324, send: pdu_to_send=0, status=TO, ackedNo=2
+send CRC error
+325, send: pdu_to_send=1, status=TO, ackedNo=2
+send CRC error
+326, send: pdu_to_send=2, status=TO, ackedNo=2
+327, send: pdu_to_send=3, status=TO, ackedNo=2
+138, receive: pdu_exp=3, pdu_recv=3, status=DataErr
+before between : ack_expected=5,now.ack=5,next_frame_to_send=4
+328, send: pdu_to_send=4, status=New, ackedNo=2
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+139, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=6,now.ack=0,next_frame_to_send=5
+329, send: pdu_to_send=5, status=New, ackedNo=3
+330, send: pdu_to_send=6, status=New, ackedNo=3
+141, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+lost
+143, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+send CRC error
+331, send: pdu_to_send=1, status=TO, ackedNo=4
+332, send: pdu_to_send=2, status=TO, ackedNo=4
+333, send: pdu_to_send=3, status=TO, ackedNo=4
+send CRC error
+334, send: pdu_to_send=4, status=TO, ackedNo=4
+send CRC error
+335, send: pdu_to_send=5, status=TO, ackedNo=4
+336, send: pdu_to_send=6, status=TO, ackedNo=4
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+144, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+146, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+send CRC error
+337, send: pdu_to_send=1, status=TO, ackedNo=5
+338, send: pdu_to_send=2, status=TO, ackedNo=5
+send CRC error
+339, send: pdu_to_send=3, status=TO, ackedNo=5
+340, send: pdu_to_send=4, status=TO, ackedNo=5
+341, send: pdu_to_send=5, status=TO, ackedNo=5
+342, send: pdu_to_send=6, status=TO, ackedNo=5
+147, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+149, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+151, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+153, receive: pdu_exp=2, pdu_recv=2, status=DataErr
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+343, send: pdu_to_send=1, status=TO, ackedNo=1
+344, send: pdu_to_send=2, status=TO, ackedNo=1
+345, send: pdu_to_send=3, status=TO, ackedNo=1
+346, send: pdu_to_send=4, status=TO, ackedNo=1
+send CRC error
+347, send: pdu_to_send=5, status=TO, ackedNo=1
+348, send: pdu_to_send=6, status=TO, ackedNo=1
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+154, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+156, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+158, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+160, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=1,now.ack=1,next_frame_to_send=0
+349, send: pdu_to_send=0, status=New, ackedNo=5
+162, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+164, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=2,now.ack=1,next_frame_to_send=1
+before between : ack_expected=2,now.ack=4,next_frame_to_send=1
+350, send: pdu_to_send=1, status=New, ackedNo=7
+send CRC error
+351, send: pdu_to_send=2, status=New, ackedNo=7
+352, send: pdu_to_send=3, status=New, ackedNo=7
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+353, send: pdu_to_send=5, status=TO, ackedNo=7
+354, send: pdu_to_send=6, status=TO, ackedNo=7
+355, send: pdu_to_send=0, status=TO, ackedNo=7
+send CRC error
+356, send: pdu_to_send=1, status=TO, ackedNo=7
+357, send: pdu_to_send=2, status=TO, ackedNo=7
+send CRC error
+358, send: pdu_to_send=3, status=TO, ackedNo=7
+lost
+165, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+167, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+169, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+171, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+173, receive: pdu_exp=4, pdu_recv=4, status=DataErr
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+359, send: pdu_to_send=5, status=TO, ackedNo=3
+360, send: pdu_to_send=6, status=TO, ackedNo=3
+send CRC error
+361, send: pdu_to_send=0, status=TO, ackedNo=3
+362, send: pdu_to_send=1, status=TO, ackedNo=3
+363, send: pdu_to_send=2, status=TO, ackedNo=3
+send CRC error
+364, send: pdu_to_send=3, status=TO, ackedNo=3
+lost
+before between : ack_expected=5,now.ack=0,next_frame_to_send=4
+365, send: pdu_to_send=4, status=New, ackedNo=3
+send CRC error
+366, send: pdu_to_send=5, status=New, ackedNo=3
+367, send: pdu_to_send=6, status=New, ackedNo=3
+lost
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+before between : ack_expected=1,now.ack=0,next_frame_to_send=0
+174, receive: pdu_exp=4, pdu_recv=4, status=DataErr
+before between : ack_expected=1,now.ack=2,next_frame_to_send=0
+send CRC error
+368, send: pdu_to_send=0, status=New, ackedNo=3
+send CRC error
+369, send: pdu_to_send=1, status=New, ackedNo=3
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+370, send: pdu_to_send=3, status=TO, ackedNo=3
+371, send: pdu_to_send=4, status=TO, ackedNo=3
+372, send: pdu_to_send=5, status=TO, ackedNo=3
+send CRC error
+373, send: pdu_to_send=6, status=TO, ackedNo=3
+send CRC error
+374, send: pdu_to_send=0, status=TO, ackedNo=3
+375, send: pdu_to_send=1, status=TO, ackedNo=3
+175, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+177, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+179, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+181, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+376, send: pdu_to_send=3, status=TO, ackedNo=7
+377, send: pdu_to_send=4, status=TO, ackedNo=7
+378, send: pdu_to_send=5, status=TO, ackedNo=7
+379, send: pdu_to_send=6, status=TO, ackedNo=7
+380, send: pdu_to_send=0, status=TO, ackedNo=7
+381, send: pdu_to_send=1, status=TO, ackedNo=7
+before between : ack_expected=3,now.ack=5,next_frame_to_send=2
+382, send: pdu_to_send=2, status=New, ackedNo=7
+send CRC error
+383, send: pdu_to_send=3, status=New, ackedNo=7
+send CRC error
+384, send: pdu_to_send=4, status=New, ackedNo=7
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+182, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+385, send: pdu_to_send=6, status=TO, ackedNo=7
+386, send: pdu_to_send=0, status=TO, ackedNo=7
+387, send: pdu_to_send=1, status=TO, ackedNo=7
+388, send: pdu_to_send=2, status=TO, ackedNo=7
+send CRC error
+389, send: pdu_to_send=3, status=TO, ackedNo=7
+390, send: pdu_to_send=4, status=TO, ackedNo=7
+183, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=6,now.ack=2,next_frame_to_send=5
+391, send: pdu_to_send=5, status=New, ackedNo=0
+392, send: pdu_to_send=6, status=New, ackedNo=0
+393, send: pdu_to_send=0, status=New, ackedNo=0
+394, send: pdu_to_send=1, status=New, ackedNo=0
+185, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+187, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+189, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+191, receive: pdu_exp=4, pdu_recv=4, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+send CRC error
+395, send: pdu_to_send=3, status=TO, ackedNo=3
+396, send: pdu_to_send=4, status=TO, ackedNo=3
+397, send: pdu_to_send=5, status=TO, ackedNo=3
+398, send: pdu_to_send=6, status=TO, ackedNo=3
+send CRC error
+399, send: pdu_to_send=0, status=TO, ackedNo=3
+400, send: pdu_to_send=1, status=TO, ackedNo=3
+lost
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+send CRC error
+401, send: pdu_to_send=3, status=TO, ackedNo=3
+402, send: pdu_to_send=4, status=TO, ackedNo=3
+403, send: pdu_to_send=5, status=TO, ackedNo=3
+404, send: pdu_to_send=6, status=TO, ackedNo=3
+send CRC error
+405, send: pdu_to_send=0, status=TO, ackedNo=3
+send CRC error
+406, send: pdu_to_send=1, status=TO, ackedNo=3
+192, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+194, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+407, send: pdu_to_send=3, status=TO, ackedNo=4
+408, send: pdu_to_send=4, status=TO, ackedNo=4
+send CRC error
+409, send: pdu_to_send=5, status=TO, ackedNo=4
+410, send: pdu_to_send=6, status=TO, ackedNo=4
+411, send: pdu_to_send=0, status=TO, ackedNo=4
+send CRC error
+412, send: pdu_to_send=1, status=TO, ackedNo=4
+lost
+lost
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+195, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+197, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=3,next_frame_to_send=2
+send CRC error
+413, send: pdu_to_send=2, status=New, ackedNo=5
+before between : ack_expected=4,now.ack=4,next_frame_to_send=3
+414, send: pdu_to_send=3, status=New, ackedNo=5
+415, send: pdu_to_send=5, status=TO, ackedNo=5
+send CRC error
+416, send: pdu_to_send=6, status=TO, ackedNo=5
+send CRC error
+417, send: pdu_to_send=0, status=TO, ackedNo=5
+send CRC error
+418, send: pdu_to_send=1, status=TO, ackedNo=5
+419, send: pdu_to_send=2, status=TO, ackedNo=5
+420, send: pdu_to_send=3, status=TO, ackedNo=5
+198, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+421, send: pdu_to_send=5, status=TO, ackedNo=5
+422, send: pdu_to_send=6, status=TO, ackedNo=5
+423, send: pdu_to_send=0, status=TO, ackedNo=5
+424, send: pdu_to_send=1, status=TO, ackedNo=5
+425, send: pdu_to_send=2, status=TO, ackedNo=5
+426, send: pdu_to_send=3, status=TO, ackedNo=5
+199, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=5,now.ack=5,next_frame_to_send=4
+427, send: pdu_to_send=4, status=New, ackedNo=7
+201, receive: pdu_exp=0, pdu_recv=0, status=DataErr
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=4,next_frame_to_send=5
+428, send: pdu_to_send=5, status=New, ackedNo=7
+429, send: pdu_to_send=6, status=New, ackedNo=7
+send CRC error
+430, send: pdu_to_send=0, status=New, ackedNo=7
+431, send: pdu_to_send=1, status=New, ackedNo=7
+432, send: pdu_to_send=2, status=New, ackedNo=7
+433, send: pdu_to_send=3, status=New, ackedNo=7
+434, send: pdu_to_send=5, status=TO, ackedNo=7
+435, send: pdu_to_send=6, status=TO, ackedNo=7
+436, send: pdu_to_send=0, status=TO, ackedNo=7
+437, send: pdu_to_send=1, status=TO, ackedNo=7
+438, send: pdu_to_send=2, status=TO, ackedNo=7
+send CRC error
+439, send: pdu_to_send=3, status=TO, ackedNo=7
+before between : ack_expected=5,now.ack=7,next_frame_to_send=4
+440, send: pdu_to_send=4, status=New, ackedNo=7
+441, send: pdu_to_send=5, status=New, ackedNo=7
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+202, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=0,now.ack=2,next_frame_to_send=6
+442, send: pdu_to_send=6, status=New, ackedNo=0
+443, send: pdu_to_send=0, status=New, ackedNo=0
+444, send: pdu_to_send=1, status=New, ackedNo=0
+204, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+206, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+208, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+210, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+445, send: pdu_to_send=3, status=TO, ackedNo=4
+send CRC error
+446, send: pdu_to_send=4, status=TO, ackedNo=4
+447, send: pdu_to_send=5, status=TO, ackedNo=4
+448, send: pdu_to_send=6, status=TO, ackedNo=4
+449, send: pdu_to_send=0, status=TO, ackedNo=4
+send CRC error
+450, send: pdu_to_send=1, status=TO, ackedNo=4
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+212, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=3,next_frame_to_send=2
+451, send: pdu_to_send=2, status=New, ackedNo=4
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+213, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+215, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+217, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+219, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+221, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+223, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+452, send: pdu_to_send=4, status=TO, ackedNo=3
+453, send: pdu_to_send=5, status=TO, ackedNo=3
+454, send: pdu_to_send=6, status=TO, ackedNo=3
+455, send: pdu_to_send=0, status=TO, ackedNo=3
+456, send: pdu_to_send=1, status=TO, ackedNo=3
+457, send: pdu_to_send=2, status=TO, ackedNo=3
+225, receive: pdu_exp=4, pdu_recv=4, status=DataErr
+before between : ack_expected=4,now.ack=4,next_frame_to_send=3
+458, send: pdu_to_send=3, status=New, ackedNo=3
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+459, send: pdu_to_send=5, status=TO, ackedNo=3
+send CRC error
+460, send: pdu_to_send=6, status=TO, ackedNo=3
+461, send: pdu_to_send=0, status=TO, ackedNo=3
+send CRC error
+462, send: pdu_to_send=1, status=TO, ackedNo=3
+463, send: pdu_to_send=2, status=TO, ackedNo=3
+464, send: pdu_to_send=3, status=TO, ackedNo=3
+226, receive: pdu_exp=4, pdu_recv=4, status=DataErr
+before between : ack_expected=5,now.ack=3,next_frame_to_send=4
+465, send: pdu_to_send=4, status=New, ackedNo=3
+send CRC error
+466, send: pdu_to_send=5, status=New, ackedNo=3
+467, send: pdu_to_send=6, status=New, ackedNo=3
+468, send: pdu_to_send=0, status=New, ackedNo=3
+469, send: pdu_to_send=1, status=New, ackedNo=3
+470, send: pdu_to_send=2, status=New, ackedNo=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+before between : ack_expected=4,now.ack=3,next_frame_to_send=3
+lost
+lost
+471, send: pdu_to_send=4, status=TO, ackedNo=3
+send CRC error
+472, send: pdu_to_send=5, status=TO, ackedNo=3
+send CRC error
+473, send: pdu_to_send=6, status=TO, ackedNo=3
+send CRC error
+474, send: pdu_to_send=0, status=TO, ackedNo=3
+475, send: pdu_to_send=1, status=TO, ackedNo=3
+476, send: pdu_to_send=2, status=TO, ackedNo=3
+227, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=4,now.ack=4,next_frame_to_send=3
+477, send: pdu_to_send=3, status=New, ackedNo=4
+229, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+lost
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+478, send: pdu_to_send=5, status=TO, ackedNo=4
+479, send: pdu_to_send=6, status=TO, ackedNo=4
+480, send: pdu_to_send=0, status=TO, ackedNo=4
+send CRC error
+481, send: pdu_to_send=1, status=TO, ackedNo=4
+482, send: pdu_to_send=2, status=TO, ackedNo=4
+send CRC error
+483, send: pdu_to_send=3, status=TO, ackedNo=4
+lost
+230, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+before between : ack_expected=5,now.ack=4,next_frame_to_send=4
+484, send: pdu_to_send=5, status=TO, ackedNo=4
+485, send: pdu_to_send=6, status=TO, ackedNo=4
+send CRC error
+486, send: pdu_to_send=0, status=TO, ackedNo=4
+487, send: pdu_to_send=1, status=TO, ackedNo=4
+488, send: pdu_to_send=2, status=TO, ackedNo=4
+489, send: pdu_to_send=3, status=TO, ackedNo=4
+lost
+231, receive: pdu_exp=5, pdu_recv=5, status=DataErr
+before between : ack_expected=5,now.ack=5,next_frame_to_send=4
+490, send: pdu_to_send=4, status=New, ackedNo=4
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+before between : ack_expected=6,now.ack=5,next_frame_to_send=5
+491, send: pdu_to_send=6, status=TO, ackedNo=4
+492, send: pdu_to_send=0, status=TO, ackedNo=4
+493, send: pdu_to_send=1, status=TO, ackedNo=4
+494, send: pdu_to_send=2, status=TO, ackedNo=4
+send CRC error
+495, send: pdu_to_send=3, status=TO, ackedNo=4
+send CRC error
+496, send: pdu_to_send=4, status=TO, ackedNo=4
+lost
+232, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=6,now.ack=7,next_frame_to_send=5
+497, send: pdu_to_send=5, status=New, ackedNo=5
+234, receive: pdu_exp=6, pdu_recv=6, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+before between : ack_expected=0,now.ack=7,next_frame_to_send=6
+498, send: pdu_to_send=0, status=TO, ackedNo=7
+499, send: pdu_to_send=1, status=TO, ackedNo=7
+500, send: pdu_to_send=2, status=TO, ackedNo=7
+501, send: pdu_to_send=3, status=TO, ackedNo=7
+502, send: pdu_to_send=4, status=TO, ackedNo=7
+503, send: pdu_to_send=5, status=TO, ackedNo=7
+236, receive: pdu_exp=0, pdu_recv=0, status=OK
+before between : ack_expected=0,now.ack=2,next_frame_to_send=6
+504, send: pdu_to_send=6, status=New, ackedNo=0
+505, send: pdu_to_send=0, status=New, ackedNo=0
+506, send: pdu_to_send=1, status=New, ackedNo=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=2,next_frame_to_send=2
+before between : ack_expected=3,now.ack=7,next_frame_to_send=2
+507, send: pdu_to_send=2, status=New, ackedNo=0
+send CRC error
+508, send: pdu_to_send=3, status=New, ackedNo=0
+509, send: pdu_to_send=4, status=New, ackedNo=0
+send CRC error
+510, send: pdu_to_send=5, status=New, ackedNo=0
+receive pure ack 0
+before between : ack_expected=0,now.ack=0,next_frame_to_send=6
+511, send: pdu_to_send=6, status=New, ackedNo=0
+receive pure ack 1
+before between : ack_expected=1,now.ack=1,next_frame_to_send=0
+receive pure ack 2
+before between : ack_expected=2,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+238, receive: pdu_exp=1, pdu_recv=1, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+239, receive: pdu_exp=1, pdu_recv=1, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+241, receive: pdu_exp=2, pdu_recv=2, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+243, receive: pdu_exp=3, pdu_recv=3, status=OK
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+245, receive: pdu_exp=4, pdu_recv=4, status=DataErr
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+before between : ack_expected=3,now.ack=2,next_frame_to_send=0
+512, send: pdu_to_send=3, status=TO, ackedNo=3
+513, send: pdu_to_send=4, status=TO, ackedNo=3
+514, send: pdu_to_send=5, status=TO, ackedNo=3
+515, send: pdu_to_send=6, status=TO, ackedNo=3
+receive pure ack 3
+before between : ack_expected=3,now.ack=3,next_frame_to_send=0
+receive pure ack 4
+before between : ack_expected=4,now.ack=4,next_frame_to_send=0
+receive pure ack 5
+before between : ack_expected=5,now.ack=5,next_frame_to_send=0
+receive pure ack 7
+before between : ack_expected=6,now.ack=7,next_frame_to_send=0
+246, receive: pdu_exp=4, pdu_recv=4, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=0
+248, receive: pdu_exp=5, pdu_recv=5, status=OK
+before between : ack_expected=0,now.ack=7,next_frame_to_send=0
+250, receive: pdu_exp=6, pdu_recv=6, status=DataErr
+before between : ack_expected=0,now.ack=7,next_frame_to_send=0
+文件接收完成
+
+Process finished with exit code -1
