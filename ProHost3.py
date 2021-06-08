@@ -191,6 +191,11 @@ def Solve(clientsocket, filepath, tempport):
                 elif (now.seq == -1):
                     print("receive pure ack {}".format(now.ack))
 
+                else:
+                    recvId+=1
+                    print(
+                        "{}, receive: pdu_exp={}, pdu_recv={}, status=NoErr".format(recvId, frame_expected, now.seq))
+
                 print("before between : ack_expected={},now.ack={},next_frame_to_send={}"
                       .format(ack_expected, now.ack, next_frame_to_send))
                 while (between(ack_expected, now.ack, next_frame_to_send)):

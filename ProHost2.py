@@ -119,6 +119,9 @@ def Solve(clientsocket, filepath, tempport):
     frame_expected = 0
     nbuffered = 0
 
+    # 日志记录
+    logbuffer = ""
+
     while (True):
         # 发
         while (not sendFinisfed and nbuffered < MAX_SEQ - 1):
@@ -126,6 +129,7 @@ def Solve(clientsocket, filepath, tempport):
             packet = CreatPacket(next_frame_to_send, frame_expected, bufferp, buffer, sendFinisfed)
             bufferp += 1
             print("{}, send: pdu_to_send={}, status=New, ackedNo={}".format(sendId,packet.seq, packet.ack))
+            logbuffer += "{}, send: pdu_to_send={}, status=TO, ackedNo={}".format(sendId, packet.seq, packet.ack) + "\n"
             sendId+=1
             # packet=pickle.dumps(packet)
             QueueSet[tempport].put(packet)
@@ -149,6 +153,7 @@ def Solve(clientsocket, filepath, tempport):
                     next_frame_to_send = (next_frame_to_send + 1) % MAX_SEQ
                     bufferp += 1
                     print("{}, send: pdu_to_send={}, status=TO, ackedNo={}".format(sendId,packet.seq, packet.ack))
+                    logbuffer += "{}, send: pdu_to_send={}, status=TO, ackedNo={}".format(sendId, packet.seq,packet.ack) + "\n"
                     sendId+=1
                     # packet=pickle.dumps(packet)
                     QueueSet[tempport].put(packet)
@@ -186,8 +191,10 @@ def Solve(clientsocket, filepath, tempport):
                     if (checksum != now.checksum):
                         # 校验出错，直接丢弃
                         print("{}, receive: pdu_exp={}, pdu_recv={}, status=DataErr".format(recvId, frame_expected,now.seq))
+                        logbuffer += "{}, receive: pdu_exp={}, pdu_recv={}, status=DataErr".format(recvId, frame_expected,now.seq) + '\n'
                     else:
                         print("{}, receive: pdu_exp={}, pdu_recv={}, status=OK".format(recvId,frame_expected, now.seq))
+                        logbuffer += "{}, receive: pdu_exp={}, pdu_recv={}, status=OK".format(recvId, frame_expected,now.seq) + '\n'
                         recvId+=1
                         frame_expected = (frame_expected + 1) % MAX_SEQ
                         receiver += now.data
@@ -196,9 +203,13 @@ def Solve(clientsocket, filepath, tempport):
                             packet = CreatPacket(-1, frame_expected, bufferp, buffer, sendFinisfed)
                             # packet = pickle.dumps(packet)
                             QueueSet[tempport].put(packet)
-
                 elif (now.seq == -1):
                     print("receive pure ack {}".format(now.ack))
+                else:
+                    recvId+=1
+                    print(
+                        "{}, receive: pdu_exp={}, pdu_recv={}, status=NoErr".format(recvId, frame_expected, now.seq))
+                    logbuffer+="{}, receive: pdu_exp={}, pdu_recv={}, status=NoErr".format(recvId, frame_expected, now.seq)+'\n'
 
                 print("before between : ack_expected={},now.ack={},next_frame_to_send={}"
                       .format(ack_expected, now.ack, next_frame_to_send))
@@ -216,6 +227,10 @@ def Solve(clientsocket, filepath, tempport):
             print('文件接收完成')
             f = open('./host2/receivefrom{}.txt'.format(otherhost), 'wb')
             f.write(receiver)
+            f.close()
+            f2 = open('./log/host2_receivefrom{}_log.txt'.format(otherhost),'w',encoding='utf-8')
+            f2.write(logbuffer)
+            f2.close()
             break
 
 
